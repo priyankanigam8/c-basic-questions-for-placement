@@ -1,1 +1,1 @@
-# c-basic-questions-for-placement
+# c++-basic-questions-for-placement
