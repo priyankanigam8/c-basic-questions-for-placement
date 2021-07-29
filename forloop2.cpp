@@ -1,14 +1,24 @@
-//program to print all the numbers till 100 but skipping the numbers which are divisible by 3
+//program to check wheather a number is prime or not
 #include<iostream>
 using namespace std;
 int main(){
-    for (int i = 1; i <= 100; i++)
+    int n;
+    cout<<"Enter the number";
+    cin>>n;
+    int i;
+    for ( i = 2; i <n; i++)
     {
-        if (i%3==0)
-        {continue;
+        if (n%i==0)
+        {
+            cout<<"The number is not prime number"<<endl;
+            break;
         }
-        cout<<i<<endl;
-
+        
+    }
+if (i==n)
+{
+    cout<<"The number is prime"<<endl;
+}
+return 0;
     }
     
-}
